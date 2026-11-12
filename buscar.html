@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscar alumno | Nova Escolar</title><link rel="stylesheet" href="estilos.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-icon">N</span><span>NOVA <small>GESTIÓN ESCOLAR</small></span></a><a class="top-link" href="index.html">← Panel principal</a></header>
+<main class="container narrow">
+<div class="breadcrumb">INICIO <span>/</span> BUSCAR ALUMNO</div>
+<section class="welcome"><p class="eyebrow">CONSULTA DE REGISTROS</p><h1>Buscar alumno</h1><p class="muted">Escribe la matrícula para localizar un registro.</p></section>
+<section class="panel">
+<div class="panel-title"><span class="quick-icon">⌕</span><div><h2>Datos de búsqueda</h2><p class="muted small">La matrícula debe coincidir con la registrada.</p></div></div>
+<form action="buscar.php" method="POST" class="form">
+<label for="matricula">Matrícula</label><input id="matricula" name="matricula" required maxlength="30" placeholder="Ej. A202601">
+<button class="button" type="submit">Buscar alumno <span>→</span></button>
+</form></section>
+<p class="back-link"><a href="lista.php">Ver lista completa de alumnos</a></p>
+</main><footer>Nova Escolar <span>·</span> Sistema de gestión escolar</footer></body></html>

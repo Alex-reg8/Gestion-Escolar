@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrar alumno | Nova Escolar</title><link rel="stylesheet" href="estilos.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-icon">N</span><span>NOVA <small>GESTIÓN ESCOLAR</small></span></a><a class="top-link" href="index.html">← Panel principal</a></header>
+<main class="container narrow">
+<div class="breadcrumb">INICIO <span>/</span> REGISTRAR ALUMNO</div>
+<section class="welcome"><p class="eyebrow">NUEVO REGISTRO</p><h1>Registrar alumno</h1><p class="muted">Completa los datos para agregar un alumno al sistema.</p></section>
+<section class="panel">
+<div class="panel-title"><span class="quick-icon">＋</span><div><h2>Información del alumno</h2><p class="muted small">Todos los campos son obligatorios.</p></div></div>
+<form action="registro.php" method="POST" class="form">
+<label for="matricula">Matrícula</label><input id="matricula" name="matricula" required maxlength="30" placeholder="Ej. A202602">
+<label for="nombre">Nombre completo</label><input id="nombre" name="nombre" required maxlength="120" placeholder="Ej. Ana Gómez">
+<button class="button" type="submit">Guardar alumno <span>→</span></button>
+</form></section>
+</main><footer>Nova Escolar <span>·</span> Sistema de gestión escolar</footer></body></html>
